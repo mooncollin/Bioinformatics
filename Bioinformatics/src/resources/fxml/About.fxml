@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="15.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" text="This program was created for the BIOI 1000 course at UNO." wrapText="true" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label text="It contains several bioinformatics tools.">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label text="If you find a bug, please contact the owner at: mooncollin@gmail.com">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
